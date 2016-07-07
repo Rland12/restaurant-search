@@ -1,0 +1,28 @@
+body{
+   background:url("http://amxxcs.ru/wp/USND0X0.jpg");
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+#search{
+    float:right;
+    color:white;
+    font-size:30px;
+    font-family: 'Galada', cursive;
+    text-shadow:5px 5px 4px purple;
+    /*border-color: maroon;
+    border-style: inset;*/
+     margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 40%;
+}
+input{
+    height:30px;
+}
+.buttons{
+    border: 5px solid orange;
+    float: right;
+    text-align:center;
+    
+    margin-right: 40%;
+  
+}
