@@ -3,26 +3,40 @@
     <head>
         <title> </title>
         <link rel="stylesheet" href="style.css" type="text/css" />
-        <script type="text/javascript" src="script.js"></script>
+       
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
 	integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+         <script type="text/javascript" src="script.js"></script>
            <link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
     </head>
     <style>
     </style>
     <body>
+        
 <form>
-    <div id="search">
+    <div id= "search">
     <span>Location:</span><br>
-    <input type="text" name="Location"><br>
+    <input id= "location" type= "text" placeholder = "Type Here" name= "Location"> <br>
     <span>Type Of Food:</span><br>
-   <input id="food" type="text" name="food"><br>
+   <input id= "food" placeholder = "Type Here" name= "food"><br>
     </div>
+ 
 </form>
-<div class="buttons">
-<button style="color:red"; type="button">Clear</button>
-<button style="color:green";   type="button">Submit</button>
+<div class= "buttons">
+    
+    <div class= "row">
+<div id="" class= "col-md-4"></div>
+    <button class= "col-md-2" id= "clear" style="color: black"; type="button">Clear</button>
+    <button class= "col-md-2" id= "sub" style="color: green";   type="button">Submit!</button>
+<div id=""class= "col-md-4">
 </div>
+<div class= "row">
+        <div class= "col-md-12" id = "result"> </div>
+    
+     </div>
+</div>
+</div>
+   
     </body>
 </html>

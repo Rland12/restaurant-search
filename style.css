@@ -1,28 +1,66 @@
 body{
-   background:url("http://amxxcs.ru/wp/USND0X0.jpg");
+   background: url("http://amxxcs.ru/wp/USND0X0.jpg");
    background-repeat: no-repeat;
-   background-size:cover;
+   background-size: cover;
+}
+span{
+    color: white;
 }
 #search{
-    float:right;
-    color:white;
-    font-size:30px;
+    float: right;
+    font-size: 25px;
     font-family: 'Galada', cursive;
-    text-shadow:5px 5px 4px purple;
-    /*border-color: maroon;
-    border-style: inset;*/
-     margin-top: 100px;
+    text-shadow: 5px 5px 4px purple;
+    margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 40%;
 }
-input{
-    height:30px;
+input {
+    height: 30px;
+    background-color: #ebebe0;
 }
-.buttons{
-    border: 5px solid orange;
-    float: right;
-    text-align:center;
+ buttons {
+    height: 225px;
+    width: 225px;
+    text-align: center;
+    border: none;
+}
+
+#clear {
+    background-color: #f44336;
+    border: 10px double #FF1A00;
+    border-radius: 12px;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-left: 500px;
+    margin-top: 50px;
+    clear: both;
+    float: left;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
     
-    margin-right: 40%;
-  
+}
+#sub {
+    background-color: #80dfff;
+    border-radius: 12px;
+    border: 10px double green;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 500px;
+    clear: both;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+}
+#sub:hover {
+    box-shadow:  0px 17px 60px 10px #66ff66;
+}
+#clear:hover{
+    box-shadow:  0px 17px 60px 10px #ff6666;
+}
+ul {
+    color: white;
+    list-style: none;
+}
+
+#result {
+    text-align: center;
 }
