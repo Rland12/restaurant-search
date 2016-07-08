@@ -12,7 +12,7 @@ $("#clear").click(function() {
 
                     var items = [];
                     $.each(data.response.venues, function(i, val) {
-console.log(data.response.venues[i].photos);
+console.log(data.response.venues[i].checkin);
                         items.push("<li id='" + i + "'>" + data.response.venues[i].name + "</li>");
                     });
                     $("#sub").click(function() {
